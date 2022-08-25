@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <title>Twiik-Friends</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+   <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-nav{
+  position: sticky;
+  height: 110px;
+}
+#submenu{
+  position: absolute;
+  bottom: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    
+}
+#submenus{
+  background-color: #f6f6f6;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+#submenus>a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px 15px;
+    line-height: 40px;
+    color: #3bc6e0;
+}
+#submenu>a:hover{
+    text-decoration: underline;
+}
+
+        #mainDiv{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid black; */
+        }
+        /* #badaDiv{
+            border: 1px solid rgb(179, 52, 52);  
+          
+        } */
+        #chotaDiv{
+            /* border: 1px solid blue; */
+            padding:1rem;
+           
+        }
+        #chotaDiv>img{
+            border-radius: 50%;
+        }
+        #summary{
+            padding-top: 1rem;
+        }
+        
+        #summary>div{
+            padding: 10px;
+        }
+        #workout{
+            display:flex;
+            /* border: 1px solid blue; */
+            justify-content: space-evenly;
+        }
+        #workout>div{
+          padding: 0.7rem;
+            display:block;
+            margin-left: 5px;
+            background-color: rgb(236, 231, 231);
+           
+            /* align-items: center; */
+            /* justify-content: center; */
+        }
+        #graph{
+            display:flex;
+            /* border: 1px solid blue; */
+            justify-content: space-between;
+            background-color: rgb(255, 249, 249);
+
+        }
+        #stream{
+            display:flex;
+            /* border: 1px solid blue; */
+            
+        }
+        #badaStream{
+            width:500px
+        }
+       #input{
+
+        width:450px;
+        height:30px;
+        }
+        #lastDiv{
+            width:200px;
+            height:200px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="main-nav">
+        <!--------------------Navigation Bar Code starts here------------------------>
+        <div id="navbars"></div>
+        <!--------------------Navigation Bar Code Ends here---------------------->
+        <div id="fsubmenu"></div>
+    </div>
+
+    <div id="mainDiv">
+        <div id="chotaDiv">
+           <img src="https://graph.facebook.com/1397647407370252/picture?width=200&height=200"> 
+            <div id="summary">
+                <div style="background-color :rgb(7, 7, 71) ;color:white;">MOHAMMAD_RAMIZ_RAJAS</div>
+                <div style="background-color:rgb(205, 203, 203)">Summary</div>
+                <div style="background-color:rgb(234, 228, 228)">Exercise Log</div>
+                <div style="background-color:rgb(234, 228, 228)">Blog</div>
+                <div style="background-color:rgb(234, 228, 228)">Challenges</div>
+                <div style="background-color:rgb(234, 228, 228)">Competitions</div>
+                <div style="background-color:rgb(234, 228, 228)">Change Profile</div>
+            </div>
+        </div>
+        <div id="badaDiv">
+            <div>
+                <h1>Mohammad_Ramiz_Raja</h1>
+                <p>Mohammad Ramiz Raja</p>
+            </div>
+            <div id="workout">
+                <div><p>Workouts</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/workouts.png"> 
+                </div>
+                <div><p>Challenges</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/medal.png">
+                </div>
+                <div><p>Competitions</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/contest.png">
+                </div>
+                <div><p>Friends</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/friend.png">
+                </div>
+                <div><p>Groups</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/group.png">
+                </div>
+                <div><p>Equipment</p>
+                    <img src="https://kcdn.twiikapp.com/images/profile/equipment.png">
+                </div>
+            </div>
+            <div id="graph">
+                <div><p>Trained time per week</p>
+                    <div></div>
+                    <div style="background-color:grey;"></div>
+                </div>
+                <div><p>Last 30 days</p>
+                <div style="padding:1rem;">0 Workouts</div>
+                <div style="padding:1rem;">0 km</div>
+            </div>
+                <div>Common Activities</div>
+            </div>
+
+            <div id="stream">
+                <div id="badaStream">
+            <p>stream</p>
+                <br>
+                <input id="input" type="text" placeholder="Write something to Mohammad Ramiz Raja">
+            </div>
+                <div id="lastDiv">
+                    <h4>About Mohammad_Ramiz_Raja</h4>
+                    
+                    <p>Mohammad_Ramiz_Rajahas not yet written a description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+         <!-- start the footer part -->
+<div id="footers"></div>
+<!-- end the footer part -->
+</body>
+<script src="/script/friends.js" type="module"></script>
+<script src="/script/pop.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>

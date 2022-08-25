@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <link rel="stylesheet" href="/css/submenu.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>Twiik</title>
+</head>
+<body>
+    <div id="main-nav">
+        <!--------------------Navigation Bar Code starts here------------------------>
+        <div id="navbars"></div>
+        <!--------------------Navigation Bar Code Ends here---------------------->
+        <div id="csubmenu"></div>
+    </div>
+    
+    <div id="container">
+        <h1>Challenges</h1>
+        <div>
+            <!-- slider section -->
+            <div  id="slide-container">
+                    <span class="arrow prev" >&#10094;</span>
+                    <span class="arrow next" >&#10095;</span>
+                    <div id="dots">
+                        <span class="single-dot prevs"></span>
+                        <div  class="single-dot "></div>
+                        <div  class="single-dot nexts"></div>
+            </div>
+            </div>
+            <!-- create section -->
+            <div id="create">
+                <div>
+                    <div>
+                        <img src="https://kcdn.twiikapp.com/images/challenge.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Create new challenge</h2>
+                        <p>Create your own challenge with your own rules.</p>
+                    </div>
+                </div>
+                <div id="button">
+                    <button id="onbutton" onclick="on()">CREATE NEW CHALLENGES</button>
+                </div> 
+            </div>
+        </div>
+
+      
+          <!-- challenge section -->
+    
+         
+
+    </div>
+    <div id="challenge-data">
+        <div>
+            <div id="header">
+                <div>
+                    <label for="input"> Search map location</label>
+                    <input type="text">
+                </div>
+              
+                <div>
+                    <label for="select">Select categry</label>
+                    <select name="" id="">
+                    <option value="">  Show All </option>
+                    <option value="">Workout</option>
+                    <option value="">Weight</option>
+                    <option value="">Steps</option>
+                    </select>
+                </div>
+               
+                <div>
+                    <label for="select">Challenge type</label>
+                    <select name="" id="">
+                     <option value="">Show All</option>
+                     <option value="">Challenge yourself</option>
+                     <option value="">Challenge friends</option>
+                    </select>
+                </div>
+              
+                <div>
+                    <label for="sort">Sort</label>
+                    <select name="" id="">
+                    <option value="">Recommended</option>
+                    <option value="">Newest</option>
+                    <option value="">Popular</option>
+                    <option value="">Alphabetical</option>
+                    </select>
+                </div>
+               <div></div>
+               <div></div>
+                <div>
+                    <button><img src="https://kcdn.twiikapp.com/images/refresh.png" alt=""> Update list</button>
+                </div>
+              
+            </div>
+            <div id="check">
+                <input type="checkbox"><span>Hide challenges that I participate in</span>
+            </div>
+          
+            <div id="data">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay">
+       
+        <div class="first" >
+            <div class= "close" onclick="off()">&times; </div>
+            <div id="content">
+        
+                    <h1> Create new challenge</h1> <span>Current step 1</span>
+                    <hr>
+                
+               
+                <h2>Who do you want to challenge?</h2>
+                <div>
+                    <div><img src="https://www.linkpicture.com/q/Capture1_7.png" alt="" onclick="friends()"></div>
+                    <span>or</span>
+                    <div><img src="https://www.linkpicture.com/q/Capture2_5.png" alt="" onclick="yourself()"></div>
+                </div>
+               
+            </div>
+
+    </div>
+   </div>
+   <!-- start the footer part -->
+<div id="footers"></div>
+<!-- end the footer part -->
+
+   <div id="overlay-1">
+    <div class="first" >
+        <div class= "close" onclick="off()">&times; </div>
+        <img src="https://www.linkpicture.com/q/Capture4_3.png" alt="">
+    </div>
+   </div>
+   <div id="overlay-2">
+    <div class="first" >
+        <div class= "close" onclick="off()">&times; </div>
+        <img src="https://www.linkpicture.com/q/Capture3_6.png" alt="">
+    </div>
+   </div>
+</body>
+
+<script src="/script/imports.js" type="module"></script>
+<script src="/script/create.js"></script>
+<script src="/script/challenge.js" type="module"></script>
+
+</html>

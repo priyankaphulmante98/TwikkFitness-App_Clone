@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <link rel="stylesheet" href="./style/myGroups.css ">
+    <link rel="stylesheet" href="./style/groupsForum.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+   <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-nav{
+  position: sticky;
+  height: 110px;
+}
+#submenu{
+  position: absolute;
+  bottom: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    
+}
+#submenus{
+  background-color: #f6f6f6;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+#submenus>a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px 15px;
+    line-height: 40px;
+    color: #3bc6e0;
+}
+#submenu>a:hover{
+    text-decoration: underline;
+}
+
+      #container{
+        display: flex;
+        justify-content: center;
+        width:1000px;
+      }
+    </style>
+</head>
+<body>
+    
+
+    <div id="main-nav">
+        <!--------------------Navigation Bar Code starts here------------------------>
+        <div id="navbars"></div>
+        <!--------------------Navigation Bar Code Ends here---------------------->
+        <div id="gsubmenu"></div>
+    </div>
+
+    <div id="container">
+
+
+       
+    
+    
+        <p id="head1">My Group Forums</p>
+        <p>Welcome to the forum start page</p>
+    
+        <div id="subHead">
+            <div> <h3>Recent group discussions</h3></div>
+                <div><h3>Recent common discussions</h3></div>
+        </div>
+        <div id="subHead1"> 
+            <div><p>No group discussions found</p></div>
+            <div></div>
+        </div>
+    
+        <div id="bigDiv">
+            <p>You're not member in any groups, click the button belov to search for interesting groups</p>
+            <button>Find Groups</button>
+        </div>
+    </div>
+
+            <!-- start the footer part -->
+<div id="footers"></div>
+<!-- end the footer part -->
+</body>
+<script src="/script/group.js" type="module"></script>
+<script src="/script/pop.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>

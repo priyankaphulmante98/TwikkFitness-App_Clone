@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/nutrition.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    #main-nav{
+      position: sticky;
+      height: 110px;
+    }
+    #submenu{
+      position: absolute;
+      bottom: 0px;
+        width: 100%;
+        background-color: #f6f6f6;
+        
+    }
+    #submenus{
+      background-color: #f6f6f6;
+        width: 70%;
+        height: 40px;
+        margin: auto;
+    }
+    #submenus>a{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 0px 15px;
+        line-height: 40px;
+        color: #3bc6e0;
+    }
+    #submenu>a:hover{
+        text-decoration: underline;
+    }
+    
+       </style>
+</head>
+<body>
+    <div id="main-nav">
+        <!--------------------Navigation Bar Code starts here------------------------>
+        <div id="navbars"></div>
+        <!--------------------Navigation Bar Code Ends here---------------------->
+        <div id="rsubmenu"></div>
+    </div>
+    <div id="container">
+        <div id="card">
+            <div id="Left_card">
+                <h3 class="lefth3">Nutrition</h3>
+                <a class="left_a" href="#">Summary</a>
+                <a class="left_a" href="#">Time based stats</a>
+                <a class="left_a" href="#">Show all notations</a>
+                <a class="left_a" href="#">Your favorite graphs</a>
+            </div>
+
+            <div id="right_card">
+                <h1>Nutrition</h1>
+
+                <p class="small_p">Here you can find statistics over all your Nutrition.</p>
+
+                <div id="date">
+                    <p>All statistics are calculated between <b>2022-07-05</b>, and today. </p>	
+                    <p> <img src="https://kcdn.twiikapp.com/images/icons/small_pencil.png" alt=""><a href=""> Edit statistic start date</a></p>
+                </div>
+
+                <div id="bottom_part">
+                    <div id="right_card_left">
+                        <legend>Nutrition summary per day 2022</legend>
+                        <p>Here is a statistic summary of all your nutrition notations.</p>
+                        <table id="table">
+                            <tbody>
+                                <tr>
+                                    <td class="td1">Protein</td>
+                                    <td class="td2">0.0 g</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Fats</td>
+                                    <td class="td2">0.0 g</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Carbohydrates</td>
+                                    <td class="td2">0.0 g</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Calories</td>
+                                    <td class="td2">0.0 kcal</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+    
+                    <div id="right_card_right">
+                        <legend>My total graphs</legend>
+                        <p>This is a list over your fravorite graphs. Click the graph to show it. Click the trash can icon to delete the graph.</p>
+                        <div id="newtab">Create new Graph</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+      <!-- start the footer part -->
+<div id="footers"></div>
+<!-- end the footer part -->
+</body>
+<script src="/script/result.js" type="module"></script>
+<script src="/script/pop.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>

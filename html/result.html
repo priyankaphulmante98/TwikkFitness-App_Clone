@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <title>Twiik-Result</title>
+    <link rel="stylesheet" href="/css/result.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    #main-nav{
+      position: sticky;
+      height: 110px;
+    }
+    #submenu{
+      position: absolute;
+      bottom: 0px;
+        width: 100%;
+        background-color: #f6f6f6;
+        
+    }
+    #submenus{
+      background-color: #f6f6f6;
+        width: 70%;
+        height: 40px;
+        margin: auto;
+    }
+    #submenus>a{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 0px 15px;
+        line-height: 40px;
+        color: #3bc6e0;
+    }
+    #submenu>a:hover{
+        text-decoration: underline;
+    }
+    
+       </style>
+</head>
+<body>
+    <div id="main-nav">
+        <!--------------------Navigation Bar Code starts here------------------------>
+        <div id="navbars"></div>
+        <!--------------------Navigation Bar Code Ends here---------------------->
+        <div id="rsubmenu"></div>
+    </div>
+
+    <div id="bottom_navbar">
+       
+    </div>
+    <div id="container">
+        <div id="inner_container">
+            <div id="top">
+               <h1>Statistics start page</h1>
+               <div id="date">
+                <p>All statistics are calculated between <b>2022-07-05</b>, and today. </p>	
+                <p> <img src="https://kcdn.twiikapp.com/images/icons/small_pencil.png" alt=""><a href=""> Edit statistic start date</a></p>
+               </div>
+            </div>
+
+            <div id="category">
+                Select category below to view more
+            </div>
+
+            <div id="training">
+                <div><a href=""><p>Training</p></a></div>
+                <div><a href=""><p>Nutritions</p></a></div>
+                <div><a href=""><p>Body & Health</p></a></div>
+            </div>
+
+            <div id="edit">
+                <p>Here you can view statistics over your workouts, nutrition etc.</p>
+                <input type="text" placeholder="Edit Start Page">
+            </div>
+
+            <div id="bottom">
+                <p><img src="https://kcdn.twiikapp.com/images/icons/page_edit.png" alt=""> <a href=""> You haven't added any content to your startpage yet! Click here to add content</a></p>
+                <p> Here on your statistic startpage you have the possibility to view all your favorite statistics. 
+                    Click the link above to manage what you want to show on your statistic startpage.</p>
+            </div>
+
+        </div>
+    </div>
+  <!-- start the footer part -->
+  <div id="footers"></div>
+  <!-- end the footer part -->
+</body>
+<script src="/script/result.js" type="module"></script>
+<script src="/script/pop.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>

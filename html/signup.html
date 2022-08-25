@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <title>Twiik-Sign up</title>
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+     <!-- this is fr setting the nav at top and fixing it their -->
+     <div class="nav nav_color1">
+
+        <!-- navbar-logo -->
+        <div class="logo_cont" id="logo">
+          <a href="/index.html"><img src="https://www.shapelink.com/images/logo.png" alt="logo" /></a>
+        </div>
+        
+        <!-- Navbar info about contact, login and create button -->
+        <div class="nav_info">
+          <a href="https://www.shapelink.com/en/start/gettheapp"><p>Get the app</p></a>
+          <a href="https://www.shapelink.com/en/start/contact"><p>Contact</p></a>
+          <a style="cursor: pointer"><p class="modal_login" onclick="on()">Login</p></a>
+          <a href="/html/signup.html"><button>Create account</button></a>
+        </div>
+      </div>
+<div id="input_container">
+    <div>
+        <div>
+            <h4>Create an account</h4>
+        </div>
+       
+        <div id="form">
+            <form>
+           
+                <input id="email" placeholder="Email address" type="email" required/>
+                <br/>
+                <input id="name" placeholder="first name" type="text" required/>
+                <br/>
+                <input id="surname" placeholder="Surname" type="text" required/>
+                <br/>
+                <input id="password" placeholder="password" type="password" required/>
+              
+           
+                <div class ="Checkbox">
+                   <label><input type="checkbox" name="">keep me sign in</label>
+               </div>
+               
+                <button id="btn">continue</button>
+               
+                    <h5>Already have an account?or continue with<a href="/index.html"> Sign in</a></h5>
+                   </pre>
+                    </form>
+        </div>
+        
+             <div class="science">
+                
+              <a href="https://apps.apple.com/se/app/twiik/id1022318229?ls=1" alt="apple"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5jfOfvl-mLlRLOTWfZ9nBJfl2KSUNl940g&usqp=CAU" alt=""></a>
+              <a href="https://www.facebook.com/twiikme/"><img src="https://a.travel-assets.com/egds/marks/facebook.svg" alt="facebook"></a>
+               <a href="https://www.instagram.com/twiik.me/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUEZ3IwHqpo4I_jinoI_73jcisPED2SFRReQvwpAltVpyug0aNB05-C3M-RikQ1vzTlis&usqp=CAU" alt="instagram"></a>
+            
+            </div> 
+    </div>
+    </div>
+   <!-- login details -->
+
+<div id="overlay">
+    <div class="first" >
+        <div class= "close" onclick="off()">&times; </div>
+        <form action="">
+          <div id="inputs">
+            <h1>LOGIN</h1>
+            <div>
+              <input type="email" id="email" placeholder="username_or_email" required/> 
+              <input type="password" id="password" placeholder="Password" required/>
+            </div>
+          </div>
+          <div id="checkbox">
+            <input type="checkbox"><span>Log in automatically next time</span>
+            <p></p>
+          </div>
+          <div>
+            <button id="login">Login</button>
+              <p>or</p>
+            <button id="facebook"><img src="" alt="f"> Login with Facebook</button>
+          </div>
+          <div>
+            <a  href="">Forgotten the password?</a>
+          <a  href="/html/signup.html">Create account</a>
+          </div>
+        </form>
+        
+        
+    </div>
+   </div>
+<!-- start the footer part -->
+<div id="footers"></div>
+<!-- end the footer part -->
+</body>
+<script src="/script/pop.js"></script>
+<script src="/script/index.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>

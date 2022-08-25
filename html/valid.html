@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <title>Twiik-Welcome page</title>
+    <style>
+        #container-1{
+            /* border:1px solid black; */
+            width:500px;
+            height:400px;
+            text-align: center;
+           margin: auto;
+           margin-top: 100px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+
+        }
+        #container-1 > h1{
+            font-size:40px;
+            margin-top: -30px;
+
+        }
+        #btn{
+            background-image: linear-gradient(to right, #5c4add, #70b2ea);
+            height:30px;
+            width:100px;
+            border-radius: 7px;
+
+
+        }
+    </style>
+</head>
+<body>
+ <div id="container-1">
+        <img src="data:image/png;base64,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">
+        <h1>Your account created sucessfully</h1>
+        <p> Congratulations ,you're now ready to get started on twiik</p>
+        <a href="/html/exercise.html"><button id="btn" type="button">Continue</button></a>
+    </div>
+
+    
+
+  
+</body>
+</html>

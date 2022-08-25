@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.google.com/s2/favicons?domain=https://www.shapelink.com/">
+    <link rel="stylesheet" href="./style/myGroups.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+   <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-nav{
+  position: sticky;
+  height: 110px;
+}
+#submenu{
+  position: absolute;
+  bottom: 0px;
+    width: 100%;
+    background-color: #f6f6f6;
+    
+}
+#submenus{
+  background-color: #f6f6f6;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+#submenus>a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px 15px;
+    line-height: 40px;
+    color: #3bc6e0;
+}
+#submenu>a:hover{
+    text-decoration: underline;
+}
+
+
+    #mainDiv{
+      display:flex;
+      justify-content: center;
+    }
+    #div1{
+      width:650px;
+
+    }
+    #div2{
+      width:300px;
+      border:1px solid rgb(221, 216, 216);
+      background-color: rgb(213, 206, 206);
+    margin-left:20px;
+    /* height:fit-content; */
+    margin-top: 15px;;
+
+
+    }
+    #pDiv{
+
+      display:flex;
+    }
+    #pic{
+     width:50px;
+
+     margin:1rem;
+    }
+    #btn{
+      width:100%;
+      text-align: center;
+      padding:5px 9px 5px 9px
+    }
+
+    #para{
+      font-size: 14px;;
+    }
+    #lastP{
+      align-items: center;
+      padding:1rem;
+      border:1px solid rgb(221, 216, 216);
+      background-color: rgb(213, 206, 206);
+      text-align: center;
+    }
+    #mainDiv1{
+      display:flex;
+    }
+    #div3{
+      width:670px;
+    }
+    #outDiv{
+      margin-top:20px;
+      width:300px;
+      
+    }
+    #latest{
+      align-items: center;
+      padding:1rem;
+      border:1px solid rgb(221, 216, 216);
+      background-color: rgb(213, 206, 206);
+
+    }
+    
+    </style>
+</head>
+<body>
+    
+
+  <div id="main-nav">
+    <!--------------------Navigation Bar Code starts here------------------------>
+    <div id="navbars"></div>
+    <!--------------------Navigation Bar Code Ends here---------------------->
+    <div id="gsubmenu"></div>
+</div>
+    
+
+ <div id="container">
+
+ 
+
+<h2>Groups</h2>
+
+  <div id="mainDiv">
+
+    <div id="div1">
+        <div id="chotaDiv"><p>Groups I'm participating in</p></div>
+    <div id="badaDiv"><p>You're not member of any groups yet</p></div>
+    </div>
+
+    <div id="div2">
+
+   <div id="imgDiv">
+    <img >
+   </div>
+     
+   <div id="pDiv">
+    <div> <img id="pic" src="https://kcdn.twiikapp.com/images/group.png"></div>
+     <div>
+      <h3>Find interesting groups</h3>
+   <p id="para">There are lots of groups with members talking 
+    about anything and everything. Click the button below 
+    to search for groups that you find interesting!</p>
+
+    
+     </div>
+     
+   
+  </div>
+  <button id="btn">Find Groups</button>
+ </div>
+ 
+ 
+
+
+ 
+ 
+
+</div>
+
+
+
+
+
+<div id="mainDiv1">
+
+  <div id="div3"></div>
+
+  <div id="outDiv">
+    <div id="latest">Latest discussions</div>
+    <div id="lastP">There are no forum posts</div>
+   </div>
+ </div>
+ 
+</div>
+        <!-- start the footer part -->
+        <div id="footers"></div>
+        <!-- end the footer part -->
+
+</body>
+<script src="/script/group.js" type="module"></script>
+<script src="/script/pop.js"></script>
+<script src="/script/imports.js" type="module"></script>
+</html>
+
+
+
